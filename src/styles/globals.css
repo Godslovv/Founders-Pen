@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #0b1020;
+  --ink-soft: #1d2340;
+  --paper: #f9f7f2;
+  --paper-muted: #f1ede5;
+  --navy: #0c1226;
+  --navy-deep: #070c1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  color: var(--ink);
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
+  color: var(--ink);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: rgba(12, 18, 38, 0.18);
+}

@@ -8,7 +8,7 @@ type PricingCardProps = {
 const PricingCard = ({ plan }: PricingCardProps) => {
   return (
     <article
-      className={`flex h-full flex-col w-2/3 items-center gap-6 rounded-[32px] bg-gradient-to-b from-[#1b264d] via-[#0b1020] to-[#0a0f1c] px-8 py-12 text-center text-white shadow-[0_30px_70px_rgba(12,18,38,0.35)]
+      className={`flex h-full flex-col lg:w-2/3 w-full items-center gap-6 rounded-[32px] bg-gradient-to-b from-[#1b264d] via-[#0b1020] to-[#0a0f1c] px-8 py-12 text-center text-white shadow-[0_30px_70px_rgba(12,18,38,0.35)]
       }`}
     >
       <div className="flex items-center justify-center">

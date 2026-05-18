@@ -12,7 +12,7 @@ type LegalPageContentProps = {
 const LegalPageContent = ({ title, intro, sections, contactLine }: LegalPageContentProps) => {
   return (
     <main className="bg-white">
-      <div className="mx-auto w-full max-w-4xl px-6 py-16">
+      <div className="mx-auto w-full max-w-7xl px-6 py-8">
         <LegalHeader title={title} />
         {intro ? <p className="text-sm text-slate-600">{intro}</p> : null}
         <div className="mt-10 space-y-8">
@@ -20,7 +20,7 @@ const LegalPageContent = ({ title, intro, sections, contactLine }: LegalPageCont
             <LegalSection key={section.title} section={section} />
           ))}
         </div>
-        <p className="mt-10 text-sm text-slate-600">{contactLine}</p>
+        <p className="mt-10 text-sm text-slate-600">{contactLine} <a href="mailto:founderspenhq@gmail.com" className="text-blue-500 hover:underline">founderspenhq@gmail.com</a></p>
       </div>
     </main>
   )

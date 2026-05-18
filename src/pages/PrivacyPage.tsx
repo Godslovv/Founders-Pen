@@ -8,7 +8,7 @@ const PrivacyPage = () => {
       <LegalPageContent
         title="Privacy Policy"
         sections={privacySections}
-        contactLine="If you have questions, contact: founderspenhq@gmail.com"
+        contactLine="If you have questions, contact:"
       />
     </PageLayout>
   )

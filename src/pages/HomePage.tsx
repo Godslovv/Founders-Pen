@@ -11,8 +11,8 @@ import Testimonials from "../sections/Testimonials"
 const HomePage = () => {
   return (
     <PageLayout variant="dark">
-      <Hero />
       <main className="bg-white">
+      <Hero />
         <About />
         <Team />
         <Testimonials />

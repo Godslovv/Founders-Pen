@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full">
+      <div className="absolute bottom-0 left-0 w-full bg-white">
         <svg
           className="block h-[120px] w-full"
           viewBox="0 0 1440 120"

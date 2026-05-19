@@ -3,7 +3,7 @@ import img1 from "../assets/sign.png";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white pb-20">
+    <section id="about" className="bg-white py-20">
       <div className="mx-auto grid w-full max-w-7xl gap-12 px-6 md:grid-cols-[320px_1fr]">
         <div className="flex items-start justify-center">
           <img

@@ -12,13 +12,15 @@ const HomePage = () => {
   return (
     <PageLayout variant="dark">
       <Hero />
-      <About />
-      <Team />
-      <Testimonials />
-      <Pricing />
-      <PaymentTerms />
-      <Faqs />
-      <Cta />
+      <main className="bg-white">
+        <About />
+        <Team />
+        <Testimonials />
+        <Pricing />
+        <PaymentTerms />
+        <Faqs />
+        <Cta />
+      </main>
     </PageLayout>
   )
 }

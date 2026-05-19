@@ -12,7 +12,7 @@ const PricingCard = ({ plan }: PricingCardProps) => {
       }`}
     >
       <div className="flex items-center justify-center">
-        <span className="rounded-2xl bg-black/70 px-10 py-2 text-lg text-white shadow-[0_10px_20px_rgba(0,0,0,0.25)]">
+        <span className="rounded-2xl bg-black/70 px-10 py-2 text-lg text-white shadow-[0_0_16px_rgba(80,120,255,0.55),0_0_36px_rgba(80,120,255,0.34),0_0_72px_rgba(80,120,255,0.22)]">
           {plan.name}
         </span>
       </div>

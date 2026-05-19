@@ -6,7 +6,7 @@ const Team = () => {
       <div className="mx-auto w-full max-w-7xl px-6 text-center">
         <SectionHeading
           title="How big is your team"
-          subtitle="Founders Pen is a one-person ghostwriting system, so you will work directly with me, Faithful, Founder of Founder's Pen"
+          subtitle="Founders Pen is a one-person ghostwriting system, so you will work directly with me, Faithful, Founder of Founders Pen."
         />
       </div>
     </section>

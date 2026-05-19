@@ -9,7 +9,7 @@ type PageLayoutProps = {
 
 const PageLayout = ({ children, variant = "light" }: PageLayoutProps) => {
   return (
-    <div className={`min-h-screen ${variant === "dark" ? "bg-[#0b1020]" : "bg-white"}`}>
+    <div className={`min-h-screen ${variant === "dark" ? "bg-[#070c23]" : "bg-white"}`}>
       <Header variant={variant} />
       {children}
       <Footer />

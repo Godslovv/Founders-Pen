@@ -13,10 +13,10 @@ const About = () => {
           />
         </div>
         <div className="space-y-5 text-base text-[#3d4153]">
-          <h3 className="text-2xl font-extrabold text-[#0c1226]">
+          <h3 className="font-display text-2xl font-extrabold text-[#0c1226]">
             How this started
           </h3>
-          <p>I did not plan to become a ghostwriter.</p>
+          <p>I didn't plan to become a ghostwriter.</p>
 
           <p>
             I started out writing for Fairblock, a Web3 Project, where I helped

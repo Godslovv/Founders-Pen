@@ -7,7 +7,7 @@ const Logo = ({ tone = "light" }: LogoProps) => {
 
   return (
     <h1
-      className={`font-['Cormorant_Garamond'] text-5xl font-bold tracking-wide ${color}`}
+      className={`font-display text-[26px] md:text-[48px] font-bold tracking-wide ${color}`}
     >
       Founders Pen
     </h1>

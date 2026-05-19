@@ -7,7 +7,7 @@ type FaqItemProps = {
 const FaqItem = ({ item }: FaqItemProps) => {
   return (
     <details className="group border-b border-[#0c1226]/15 py-4">
-      <summary className="flex cursor-pointer items-center justify-between text-lg font-semibold text-[#0c1226]">
+      <summary className="font-display flex cursor-pointer items-center justify-between text-lg font-semibold text-[#0c1226]">
         {item.question}
         <span className="text-2xl text-slate-400 transition group-open:rotate-180">^</span>
       </summary>

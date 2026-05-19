@@ -17,8 +17,8 @@ const SectionHeading = ({ eyebrow, title, subtitle, align = "center" }: SectionH
           {eyebrow}
         </span>
       ) : null}
-      <h2 className="text-4xl font-semibold text-[#11162b] sm:text-5xl mb-2">{title}</h2>
-      {subtitle ? <p className="max-w-full text-2xl text-slate-600">{subtitle}</p> : null}
+      <h2 className="font-display text-4xl font-semibold text-[#11162b] sm:text-5xl mb-2">{title}</h2>
+      {subtitle ? <p className="max-w-full text-xl text-slate-600">{subtitle}</p> : null}
     </div>
   )
 }

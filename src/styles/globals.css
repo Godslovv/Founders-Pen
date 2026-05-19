@@ -1,5 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
 @import "tailwindcss";
+
+@font-face {
+  font-family: "TT Interphases Pro Mono";
+  src: url("/fonts/tt-interphases-pro-mono/TT-Interphases-Pro-Mono-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Interphases Pro Mono";
+  src: url("/fonts/tt-interphases-pro-mono/TT-Interphases-Pro-Mono-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Interphases Pro Mono";
+  src: url("/fonts/tt-interphases-pro-mono/TT-Interphases-Pro-Mono-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Interphases Pro Mono";
+  src: url("/fonts/tt-interphases-pro-mono/TT-Interphases-Pro-Mono-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Free Spirited";
+  src: url("./fonts/free-spirited/FreeSpiritedRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Free Spirited";
+  src: url("/fonts/free-spirited/FreeSpiritedItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
 :root {
   color-scheme: light;
@@ -9,6 +60,9 @@
   --paper-muted: #f1ede5;
   --navy: #0c1226;
   --navy-deep: #070c1a;
+  --font-body: "TT Interphases Pro Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-display: "Free Spirited", "Cormorant Garamond", "Times New Roman", Times, serif;
 }
 
 * {
@@ -17,20 +71,13 @@
 
 body {
   margin: 0;
-  font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: var(--font-body);
   color: var(--ink);
   background: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
-  color: var(--ink);
+.font-display {
+  font-family: var(--font-display);
 }
 
 img {

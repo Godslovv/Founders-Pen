@@ -4,7 +4,7 @@ import Button from "../components/Button"
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-[#070c23] text-white">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-24 pt-14 md:pb-32 md:pt-16 items-center text-center">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-24 pt-28 md:pb-32 md:pt-16 items-center text-center">
         <div className="flex flex-col gap-6 md:max-w-5xl max-w-sm">
           <h1 className="text-[36px] font-semibold leading-tight !text-white">
             Ghostwriting for builders and creators who want to stay consistent online
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full bg-white">
+      <div className="absolute bottom-0 left-0 w-full -mb-px">
         <svg
           className="block h-[120px] w-full"
           viewBox="0 0 1440 120"

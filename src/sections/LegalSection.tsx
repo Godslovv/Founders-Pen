@@ -7,8 +7,8 @@ type LegalSectionProps = {
 const LegalSection = ({ section }: LegalSectionProps) => {
   return (
     <section>
-      <h2 className="text-lg font-semibold text-[#0c1226]">{section.title}</h2>
-      <div className="mt-3 space-y-3 text-sm text-slate-600">
+      <h2 className="text-lg font-semibold text-[#070c23]">{section.title}</h2>
+      <div className="mt-3 space-y-3 text-sm text-[#070c23]">
         {section.paragraphs.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}

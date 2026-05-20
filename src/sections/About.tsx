@@ -12,8 +12,8 @@ const About = () => {
             className="h-96 w-64 rounded-3xl border-4 border-[#0c1226] object-cover shadow-[0_16px_30px_rgba(12,18,38,0.18)]"
           />
         </div>
-        <div className="space-y-5 text-base text-[#3d4153]">
-          <h3 className="font-display text-2xl font-extrabold text-[#0c1226]">
+        <div className="space-y-5 text-base text-[#070c23]">
+          <h3 className="font-display text-2xl font-extrabold text-[#070c23]">
             How this started
           </h3>
           <p>I didn't plan to become a ghostwriter.</p>

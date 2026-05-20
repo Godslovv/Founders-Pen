@@ -19,10 +19,10 @@ const PricingCard = ({ plan }: PricingCardProps) => {
       <div>
         <p className="text-3xl font-semibold text-white sm:text-4xl">
           {plan.price}
-          <span className="text-sm font-normal text-white/70">{plan.cadence}</span>
+          <span className="text-sm font-normal text-white">{plan.cadence}</span>
         </p>
       </div>
-      <ul className="space-y-2 text-base text-white/80">
+      <ul className="space-y-2 text-base text-white">
         {plan.features.map((feature) => (
           <li key={feature} className="flex items-center justify-center gap-2">
             <span>{feature}</span>

@@ -73,7 +73,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Can I pause or stop anytime?",
     answer:
-      "Service is active only within the paid monthly cycle. You can choose not to renew after each cycle.",
+      "Service is active only within the paid monthly cycle. You can choose not to renew after each cycle ends.",
   },
 ]
 

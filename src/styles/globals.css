@@ -83,26 +83,28 @@ body {
 .marquee {
   overflow: hidden;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .marquee__track {
   display: flex;
-  width: max-content;
   white-space: nowrap;
-  animation: marquee-scroll 20s linear infinite;
+  animation: marquee-slide 5s ease-out forwards;
   will-change: transform;
 }
 
 .marquee__item {
+  flex-shrink: 0;
   padding-right: 2rem;
 }
 
-@keyframes marquee-scroll {
+@keyframes marquee-slide {
   from {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
 }
 

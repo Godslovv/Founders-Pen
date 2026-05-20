@@ -12,7 +12,7 @@ const Pricing = () => {
             <PricingCard key={plan.name} plan={plan} />
           ))}
         </div>
-        <p className="text-md italic text-center text-muted-foreground text-slate-500">
+        <p className="text-md italic text-center text-muted-foreground text-[#070c23]">
           Note: Engagement (replies, DMs, Community Management) is not included
         </p>
       </div>

@@ -1,11 +1,11 @@
-import Logo from "./Logo"
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#070c23] text-white py-6">
-      <div className="mx-auto flex w-full max-w-7xl flex-col items-start gap-10 px-6 py-12 md:flex-row md:items-center md:justify-between">
+    <footer className="bg-[#070c23] text-white">
+      <div className="flex w-full flex-row items-start justify-between px-6 py-8">
         <Logo tone="light" />
-        <div className="flex flex-col gap-3 text-sm">
+        <div className="flex flex-col gap-3 text-sm ">
           <a className="hover:text-white/70" href="#terms">
             Terms & Conditions
           </a>
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

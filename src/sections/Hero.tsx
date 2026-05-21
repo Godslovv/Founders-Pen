@@ -35,7 +35,7 @@ const Hero = () => {
           preserveAspectRatio="none"
         >
           <path
-            d="M0 96C360 110 1080 110 1440 96V120H0V96Z""
+            d="M0 100C480 120 960 120 1440 100V120H0V100Z"
             fill="#ffffff"
           />
         </svg>

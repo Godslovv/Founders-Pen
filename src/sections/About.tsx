@@ -9,7 +9,7 @@ const About = () => {
           <img
             src={profileImage}
             alt="Founder profile"
-            className="h-96 w-64 rounded-3xl border-4 border-[#0c1226] object-cover shadow-[0_16px_30px_rgba(12,18,38,0.18)]"
+            className="h-96 w-64 rounded-3xl border-8 border-[#0c1226] object-cover shadow-[0_16px_30px_rgba(12,18,38,0.18)]"
           />
         </div>
         <div className="space-y-5 text-base text-[#070c23]">
@@ -17,7 +17,6 @@ const About = () => {
             How this started
           </h3>
           <p>I didn't plan to become a ghostwriter.</p>
-
           <p>
             I started out writing for Fairblock, a Web3 Project, where I helped
             turn complex topics into clear, simple content.
@@ -35,9 +34,7 @@ const About = () => {
             simple ghostwritten content systems that make posting feel
             effortless instead of forced.
           </p>
-          <div className="pt-6">
-            <img src={img1} alt="Signature" className="h-32 w-56" />
-          </div>
+          <img src={img1} alt="Signature" className="h-32 w-56" />
         </div>
       </div>
     </section>
